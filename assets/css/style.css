@@ -4,7 +4,6 @@
 }
 h2 {
   padding-top: 4rem;
-  color: var(--primary-color);
   font-weight: 700;
   text-shadow: 1px 1px #fff;
 }
@@ -17,7 +16,7 @@ a {
   font-family: "Poppins", sans-serif;
 }
 #about p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .navbar {
   background-color: var(--primary-color);
@@ -74,7 +73,7 @@ i:hover {
   background-color: var(--light-green);
 }
 .input-icon i {
-  color: var(--primary-color);
+  color: #000;
   text-shadow: 1px 1px #fff;
 }
 
