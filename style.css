@@ -35,12 +35,14 @@ a {
 #projects {
   background-color: var(--light-green);
 }
-.btn-primary {
+.btn-primer {
   background-color: var(--primary-color);
   border-color: #5dcc60;
+  color: white;
 }
-.btn-primary:hover,
-.btn-primary:focus {
+.btn-primer:hover,
+.btn-primer:focus {
+  color: white;
   background-color: #5dcc60;
   border-color: var(--primary-color);
 }
