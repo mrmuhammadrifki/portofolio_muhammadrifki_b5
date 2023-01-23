@@ -163,15 +163,24 @@
             <form name="mr-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                <div class="input-group">
+                  <span class="input-group-text input-icon"><i class="bi bi-person"></i></span>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required />
+                </div>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <div class="input-group">
+                  <span class="input-group-text input-icon"><i class="bi bi-envelope"></i></span>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required />
+                </div>
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Pesan</label>
-                <textarea class="form-control" id="message" rows="3" name="pesan"></textarea>
+                <div class="input-group">
+                  <span class="input-group-text input-icon"><i class="bi bi-card-text"></i></span>
+                  <textarea class="form-control" id="message" rows="3" name="pesan" required></textarea>
+                </div>
               </div>
               <button type="submit" class="btn btn-primer btn-kirim">Kirim</button>
 
@@ -200,7 +209,8 @@
         <a href="#"><i class="bi bi-twitter"></i></a>
         <a href="#"><i class="bi bi-facebook"></i></a>
         <a href="#"><i class="bi bi-linkedin"></i></a>
-        <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://wa.me/6287745610943" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://github.com/mrmuhammadrifki" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://instagram.com/__muhammadrifki__" target="_blank" class="text-white fw-bold">Muhammad Rifki</a></p>
     </footer>

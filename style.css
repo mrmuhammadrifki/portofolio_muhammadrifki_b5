@@ -70,6 +70,13 @@ i {
 i:hover {
   color: var(--light-green);
 }
+.input-icon {
+  background-color: var(--light-green);
+}
+.input-icon i {
+  color: var(--primary-color);
+  text-shadow: 1px 1px #fff;
+}
 
 @media screen and (max-width: 576px) {
   .card:hover {
