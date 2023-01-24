@@ -45,16 +45,7 @@ a {
   background-color: #5dcc60;
   border-color: var(--primary-color);
 }
-.card {
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-}
-.card:hover {
-  position: relative;
-  z-index: 9999;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
+
 footer {
   background-color: var(--primary-color);
   color: #fff;
@@ -70,11 +61,22 @@ i:hover {
   color: var(--light-green);
 }
 .input-icon {
-  background-color: var(--light-green);
+  background-color: var(--primary-color);
 }
 .input-icon i {
-  color: #000;
-  text-shadow: 1px 1px #fff;
+  color: #fff;
+}
+.gallery-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+#gallery .row > * {
+  padding: 0;
+}
+#contact {
+  background-color: var(--light-green);
 }
 
 @media screen and (max-width: 576px) {
